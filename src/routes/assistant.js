@@ -1,5 +1,5 @@
 import express from 'express';
-import { askAssistant } from '../services/openai.js';
+import { askAssistant } from '../apis/openai.js';
 
 const router = express.Router();
 
