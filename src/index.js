@@ -2,16 +2,20 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import assistantRoutes from './routes/assistant.js';
+import configRoute from './routes/config.js'; // 👈 ADD THIS
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
+// 🔑 REGISTER CONFIG ROUTE
+configRoute(app);
+
 // Assistant API
 app.use('/api/assistant', assistantRoutes);
 
-// Health check (very useful on Render)
+// Health check
 app.get('/health', (_, res) => {
   res.json({ status: 'ok' });
 });
