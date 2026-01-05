@@ -26,7 +26,7 @@ const config = {
         "id": "learn",
         "title": "Learn",
         "items": [
-          { "id": "neurology", "label": "Understanding Neurology", "icon": "brain-outline", "target": "learn/neurology" },
+          { "id": "neurology", "label": "Neurology", "icon": "brain-outline", "target": "learn/neurology" },
           { "id": "caregiver", "label": "Caregiver Guide", "icon": "people-outline", "target": "learn/caregiver" },
           { "id": "living", "label": "Living Well", "icon": "heart-outline", "target": "learn/living" },
           { "id": "myths", "label": "Myths and Facts", "icon": "help-buoy-outline", "target": "learn/myths" }
@@ -45,7 +45,7 @@ const config = {
         "id": "about",
         "title": "About the App",
         "items": [
-          { "id": "platform", "label": "The NeuroCare Platform", "icon": "information-circle-outline", "target": "about/platform" },
+          { "id": "platform", "label": "The Neuro Care Platform", "icon": "information-circle-outline", "target": "about/platform" },
           { "id": "how", "label": "How This App Works", "icon": "walk-outline", "target": "about/how" },
           { "id": "data", "label": "Data Sources", "icon": "server-outline", "target": "about/data" },
           { "id": "version", "label": "Version and Updates", "icon": "git-branch-outline", "target": "about/version" }
