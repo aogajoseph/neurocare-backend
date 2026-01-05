@@ -26,7 +26,7 @@ const config = {
         "id": "learn",
         "title": "Learn",
         "items": [
-          { "id": "neurology", "label": "Neurology", "icon": "brain-outline", "target": "learn/neurology" },
+          { "id": "neurology", "label": "Understanding Neurology", "icon": "brain-outline", "target": "learn/neurology" },
           { "id": "caregiver", "label": "Caregiver Guide", "icon": "people-outline", "target": "learn/caregiver" },
           { "id": "living", "label": "Living Well", "icon": "heart-outline", "target": "learn/living" },
           { "id": "myths", "label": "Myths and Facts", "icon": "help-buoy-outline", "target": "learn/myths" }
@@ -34,7 +34,7 @@ const config = {
       },
       {
         "id": "support",
-        "title": "Support & Safety",
+        "title": "Support and Safety",
         "items": [
           { "id": "help", "label": "Help and Support", "icon": "help-circle-outline", "target": "support/help" },
           { "id": "emergency", "label": "Emergency Resources", "icon": "alert-circle-outline", "target": "support/emergency" },
