@@ -63,6 +63,93 @@ const config = {
     ]
   },
 
+  {
+    "hero": {
+      "welcome": {
+        "en": "Welcome to Neuro Care",
+        "sw": "Karibu Neuro Care"
+      },
+      "intro": {
+        "en": "Trusted information, guidance, and support for neurological health — for patients, caregivers, and communities.",
+        "sw": "Taarifa, mwongozo na msaada wa afya ya mfumo wa neva — kwa wagonjwa, walezi na jamii."
+      }
+    },
+  
+    "whatYouCanDo": [
+      {
+        "id": "conditions",
+        "title": { "en": "Understand Conditions", "sw": "Fahamu Magonjwa" },
+        "description": {
+          "en": "Learn about neurological conditions, symptoms, and treatments.",
+          "sw": "Jifunze kuhusu magonjwa ya neva, dalili na matibabu."
+        },
+        "route": "/(drawer)/(content)/learn/neurology"
+      },
+      {
+        "id": "living",
+        "title": { "en": "Living Well", "sw": "Kuishi Vizuri" },
+        "description": {
+          "en": "Practical guidance for daily life, self-care, and long-term wellbeing.",
+          "sw": "Mwongozo wa maisha ya kila siku na ustawi wa muda mrefu."
+        },
+        "route": "/(drawer)/(content)/learn/living"
+      },
+      {
+        "id": "support",
+        "title": { "en": "Support & Safety", "sw": "Msaada na Usalama" },
+        "description": {
+          "en": "Access help, emergency resources, and trusted support.",
+          "sw": "Pata msaada, rasilimali za dharura na msaada wa kuaminika."
+        },
+        "route": "/(drawer)/(content)/support/help"
+      }
+    ],
+  
+    "popularConditions": [
+      { "slug": "stroke", "label": "Stroke" },
+      { "slug": "epilepsy", "label": "Epilepsy" },
+      { "slug": "parkinsons", "label": "Parkinson’s" },
+      { "slug": "migraine", "label": "Migraine" },
+      { "slug": "dementia", "label": "Dementia" }
+    ],
+  
+    "learnWithConfidence": [
+      {
+        "id": "myths",
+        "title": { "en": "Myths vs Facts", "sw": "Hadithi dhidi ya Ukweli" },
+        "route": "/(drawer)/(content)/learn/myths"
+      },
+      {
+        "id": "caregiver",
+        "title": { "en": "Caregiver Guidance", "sw": "Mwongozo wa Walezi" },
+        "route": "/(drawer)/(content)/learn/caregiver"
+      },
+      {
+        "id": "child-protection",
+        "title": { "en": "Child Protection", "sw": "Ulinzi wa Mtoto" },
+        "route": "/(drawer)/(content)/legal/child-protection"
+      }
+    ],
+  
+    "helpNow": [
+      {
+        "id": "emergency",
+        "title": { "en": "Emergency Resources", "sw": "Rasilimali za Dharura" },
+        "route": "/(drawer)/(content)/support/emergency"
+      },
+      {
+        "id": "report",
+        "title": { "en": "Report a Concern", "sw": "Ripoti Tatizo" },
+        "route": "/(drawer)/(content)/support/report"
+      }
+    ],
+  
+    "reassurance": {
+      "en": "You are not alone. Whether you are living with a neurological condition, caring for someone, or simply seeking knowledge — Neuro Care is here to guide, support, and empower you.",
+      "sw": "Hauko peke yako..."
+    }
+  }  
+
   features: {
     community: true,
     assistant: true,
