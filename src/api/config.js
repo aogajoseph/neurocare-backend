@@ -16,7 +16,8 @@ const config = {
 
   share: {
     title: 'NeuroCare App',
-    message: 'Explore neurological care, community support and trusted guidance.',
+    message:
+      'Explore neurological care, community support and trusted guidance.',
     url: 'https://ncf-backend.onrender.com/app.apk',
   },
 
@@ -26,41 +27,111 @@ const config = {
         id: 'learn',
         title: 'Learn',
         items: [
-          { id: 'neurology', label: 'Understanding Neurology', icon: 'brain-outline', target: 'learn/neurology' },
-          { id: 'caregiver', label: 'Caregiver Guide', icon: 'people-outline', target: 'learn/caregiver' },
-          { id: 'living', label: 'Living Well', icon: 'heart-outline', target: 'learn/living' },
-          { id: 'myths', label: 'Myths and Facts', icon: 'help-buoy-outline', target: 'learn/myths' }
-        ]
+          {
+            id: 'neurology',
+            label: 'Understanding Neurology',
+            icon: 'brain-outline',
+            target: 'learn/neurology',
+          },
+          {
+            id: 'caregiver',
+            label: 'Caregiver Guide',
+            icon: 'people-outline',
+            target: 'learn/caregiver',
+          },
+          {
+            id: 'living',
+            label: 'Living Well',
+            icon: 'heart-outline',
+            target: 'learn/living',
+          },
+          {
+            id: 'myths',
+            label: 'Myths and Facts',
+            icon: 'help-buoy-outline',
+            target: 'learn/myths',
+          },
+        ],
       },
       {
         id: 'support',
         title: 'Support and Safety',
         items: [
-          { id: 'help', label: 'Help and Support', icon: 'help-circle-outline', target: 'support/help' },
-          { id: 'emergency', label: 'Emergency Resources', icon: 'alert-circle-outline', target: 'support/emergency' },
-          { id: 'report', label: 'Report a Concern', icon: 'flag-outline', target: 'support/report' }
-        ]
+          {
+            id: 'help',
+            label: 'Help and Support',
+            icon: 'help-circle-outline',
+            target: 'support/help',
+          },
+          {
+            id: 'emergency',
+            label: 'Emergency Resources',
+            icon: 'alert-circle-outline',
+            target: 'support/emergency',
+          },
+          {
+            id: 'report',
+            label: 'Report a Concern',
+            icon: 'flag-outline',
+            target: 'support/report',
+          },
+        ],
       },
       {
         id: 'about',
         title: 'About the App',
         items: [
-          { id: 'platform', label: 'The Neuro Care Platform', icon: 'information-circle-outline', target: 'about/platform' },
-          { id: 'how', label: 'How This App Works', icon: 'walk-outline', target: 'about/how' },
-          { id: 'data', label: 'Data Sources', icon: 'server-outline', target: 'about/data' },
-          { id: 'version', label: 'Version and Updates', icon: 'git-branch-outline', target: 'about/version' }
-        ]
+          {
+            id: 'platform',
+            label: 'The Neuro Care Platform',
+            icon: 'information-circle-outline',
+            target: 'about/platform',
+          },
+          {
+            id: 'how',
+            label: 'How This App Works',
+            icon: 'walk-outline',
+            target: 'about/how',
+          },
+          {
+            id: 'data',
+            label: 'Data Sources',
+            icon: 'server-outline',
+            target: 'about/data',
+          },
+          {
+            id: 'version',
+            label: 'Version and Updates',
+            icon: 'git-branch-outline',
+            target: 'about/version',
+          },
+        ],
       },
       {
         id: 'more',
         title: 'More',
         items: [
-          { id: 'terms', label: 'Terms and Conditions', icon: 'document-text-outline', target: 'legal/terms' },
-          { id: 'privacy', label: 'Privacy Policy', icon: 'lock-closed-outline', target: 'legal/privacy' },
-          { id: 'child', label: 'Child Protection', icon: 'shield-checkmark-outline', target: 'legal/child-protection' }
-        ]
-      }
-    ]
+          {
+            id: 'terms',
+            label: 'Terms and Conditions',
+            icon: 'document-text-outline',
+            target: 'legal/terms',
+          },
+          {
+            id: 'privacy',
+            label: 'Privacy Policy',
+            icon: 'lock-closed-outline',
+            target: 'legal/privacy',
+          },
+          {
+            id: 'child',
+            label: 'Child Protection',
+            icon: 'shield-checkmark-outline',
+            target: 'legal/child-protection',
+          },
+        ],
+      },
+    ],
   },
 
   home: {
@@ -114,19 +185,39 @@ const config = {
     ],
 
     learnWithConfidence: [
-      { id: 'myths', title: { en: 'Myths vs Facts', sw: 'Hadithi dhidi ya Ukweli' }, route: '/(drawer)/(content)/learn/myths' },
-      { id: 'caregiver', title: { en: 'Caregiver Guidance', sw: 'Mwongozo wa Walezi' }, route: '/(drawer)/(content)/learn/caregiver' },
-      { id: 'child-protection', title: { en: 'Child Protection', sw: 'Ulinzi wa Mtoto' }, route: '/(drawer)/(content)/legal/child-protection' },
+      {
+        id: 'myths',
+        title: { en: 'Myths vs Facts', sw: 'Hadithi dhidi ya Ukweli' },
+        route: '/(drawer)/(content)/learn/myths',
+      },
+      {
+        id: 'caregiver',
+        title: { en: 'Caregiver Guidance', sw: 'Mwongozo wa Walezi' },
+        route: '/(drawer)/(content)/learn/caregiver',
+      },
+      {
+        id: 'child-protection',
+        title: { en: 'Child Protection', sw: 'Ulinzi wa Mtoto' },
+        route: '/(drawer)/(content)/legal/child-protection',
+      },
     ],
 
     helpNow: [
-      { id: 'emergency', title: { en: 'Emergency Resources', sw: 'Rasilimali za Dharura' }, route: '/(drawer)/(content)/support/emergency' },
-      { id: 'report', title: { en: 'Report a Concern', sw: 'Ripoti Tatizo' }, route: '/(drawer)/(content)/support/report' },
+      {
+        id: 'emergency',
+        title: { en: 'Emergency Resources', sw: 'Rasilimali za Dharura' },
+        route: '/(drawer)/(content)/support/emergency',
+      },
+      {
+        id: 'report',
+        title: { en: 'Report a Concern', sw: 'Ripoti Tatizo' },
+        route: '/(drawer)/(content)/support/report',
+      },
     ],
 
     reassurance: {
       en: 'You are not alone. Whether you are living with a neurological condition, caring for someone, or simply seeking knowledge — Neuro Care is here to guide, support, and empower you.',
-      sw: 'Hauko peke yako...',
+      sw: 'Hauko peke yako. Iwe unaishi na hali ya neva, unamlea mtu, au unatafuta maarifa — Neuro Care iko hapa kukuongoza, kukusaidia na kukutia nguvu.',
     },
   },
 
