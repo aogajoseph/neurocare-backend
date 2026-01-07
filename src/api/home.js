@@ -61,16 +61,28 @@ export default {
     {
       id: 'myths',
       title: { en: 'Myths vs Facts', sw: 'Hadithi dhidi ya Ukweli' },
+      description: {
+        en: 'Clear misconceptions and learn what’s medically accurate.',
+        sw: 'Ondoa dhana potofu na ujifunze ukweli wa kitabibu.',
+      },
       route: '/(drawer)/(content)/learn/myths',
     },
     {
       id: 'caregiver',
       title: { en: 'Caregiver Guidance', sw: 'Mwongozo wa Walezi' },
+      description: {
+        en: 'Support and practical advice for caregivers and families.',
+        sw: 'Pata msaada na ushauri wa vitendo kwa walezi na familia.',
+      },
       route: '/(drawer)/(content)/learn/caregiver',
     },
     {
       id: 'child',
       title: { en: 'Child Protection', sw: 'Ulinzi wa Mtoto' },
+      description: {
+        en: 'Safeguarding children with neurological conditions.',
+        sw: 'Kulinda watoto wenye magonjwa ya mfumo wa neva',
+      },
       route: '/(drawer)/(content)/legal/child-protection',
     },
   ],
@@ -79,17 +91,25 @@ export default {
     {
       id: 'emergency',
       title: { en: 'Emergency Resources', sw: 'Rasilimali za Dharura' },
+      description: {
+        en: 'Find urgent help and emergency guidance.',
+        sw: 'Pata msaada wa haraka na mwongozo wa dharura.',
+      },
       route: '/(drawer)/(content)/support/emergency',
     },
     {
       id: 'report',
       title: { en: 'Report a Concern', sw: 'Ripoti Tatizo' },
+      description: {
+        en: 'Raise concerns safely and confidentially.',
+        sw: 'Toa taarifa za wasiwasi kwa usalama na kwa siri.',
+      },
       route: '/(drawer)/(content)/support/report',
     },
   ],
 
   reassurance: {
-    en: 'You are not alone. Neuro Care is here to guide and support you.',
-    sw: 'Hauko peke yako. Neuro Care iko hapa kukuongoza.',
+    en: 'You are not alone. Whether you are living with a neurological condition, caring for someone, or simply seeking knowledge — Neuro Care is here to guide, support, and empower you.',
+    sw: 'Hauko peke yako. Iwe unaishi na hali ya neva, unamlea mtu, au unatafuta maarifa — Neuro Care iko hapa kukuongoza, kukusaidia na kukutia nguvu.',
   },
 };
