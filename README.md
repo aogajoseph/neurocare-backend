@@ -47,7 +47,7 @@ Community posts and interactions are planned as a future phase.
 
 ## Related Repositories
 
-- Frontend App: [neurocare-app](../neurocare-app)
+- Frontend App: [neurocare-app](https://github.com/aogajoseph/neurocare-app/)
 
 ---
 
